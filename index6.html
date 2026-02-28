@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- 增加这一行，解除B站视频嵌入的防盗链限制（黑屏问题核心） -->
     <meta name="referrer" content="no-referrer">
-    <title>机械结构工程师 | 个人作品集</title>
+    <title>李柯轩 | 机械结构工程师作品集 / Mechanical Structural Engineer Portfolio</title>
     <!-- 引入 Tailwind CSS 进行快速美化 -->
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
@@ -37,27 +36,41 @@
     <!-- 顶部个人信息区 -->
     <header class="bg-slate-900 border-b border-slate-800 pt-20 pb-16 px-4 sm:px-6 lg:px-8">
         <div class="max-w-4xl mx-auto text-center">
-            <h1 class="text-4xl sm:text-5xl font-extrabold text-white tracking-tight mb-4">
-                李柯轩
+            
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-white tracking-tight mb-6">
+                <span class="block">李柯轩</span>
+                <span class="block text-2xl sm:text-3xl text-slate-500 mt-2 font-semibold tracking-normal">Kexuan Li</span>
             </h1>
-            <p class="text-xl sm:text-2xl text-blue-400 font-medium mb-6">
-                机械结构工程师 / 机器人系统开发者
-            </p>
-            <p class="max-w-2xl mx-auto text-slate-400 text-lg leading-relaxed mb-8">
-                专注于精密机械设计、拓扑优化与机器人底层硬件架构。熟练使用 SolidWorks, ANSYS, 拥有5年以上的复杂传动系统与轻量化结构设计经验。致力于将创新理念转化为可靠的物理实体。
-            </p>
+            
+            <div class="mb-8">
+                <p class="text-xl sm:text-2xl text-blue-400 font-medium">
+                    求职意向：机械结构工程师
+                </p>
+                <p class="text-sm sm:text-base text-blue-500/70 mt-1">
+                    Objective: Mechanical Structural Engineer
+                </p>
+            </div>
+            
+            <div class="max-w-2xl mx-auto mb-10 text-center">
+                <p class="text-slate-300 text-lg leading-relaxed">
+                    上海交通大学在读，同济大学学士。<br>熟练使用 SolidWorks, ANSYS, AutoCAD
+                </p>
+                <p class="text-slate-500 text-sm mt-2">
+                    Master's candidate at SJTU, B.Eng. from Tongji University.<br>Proficient in SolidWorks, ANSYS, and AutoCAD
+                </p>
+            </div>
             
             <!-- 联系方式 / 社交链接 -->
             <div class="flex flex-col sm:flex-row justify-center items-center gap-6">
                 <!-- 邮箱 -->
-                <button onclick="copyText('likexuan0129@sjtu.edu.cn')" title="点击复制地址" class="flex items-center gap-2 text-slate-500 hover:text-blue-400 transition-colors group focus:outline-none">
+                <button onclick="copyText('likexuan0129@sjtu.edu.cn')" title="点击复制地址 / Click to copy address" class="flex items-center gap-2 text-slate-500 hover:text-blue-400 transition-colors group focus:outline-none">
                     <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.53 4.389a2 2 0 002.94 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2-2v10a2 2 0 002 2z" />
                     </svg>
                     <span class="font-mono text-sm group-hover:underline">likexuan0129@sjtu.edu.cn</span>
                 </button>
                 <!-- GitHub -->
-                <button onclick="copyText('https://github.com/likexuan')" title="点击复制地址" class="flex items-center gap-2 text-slate-500 hover:text-white transition-colors group focus:outline-none">
+                <button onclick="copyText('https://github.com/likexuan')" title="点击复制地址 / Click to copy address" class="flex items-center gap-2 text-slate-500 hover:text-white transition-colors group focus:outline-none">
                     <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
                         <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd" />
                     </svg>
@@ -70,109 +83,129 @@
     <!-- 项目展示区 -->
     <main class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <h2 class="text-2xl font-bold text-white mb-12 flex items-center gap-3 border-l-4 border-blue-500 pl-4">
-            精选工程项目
+            <div>
+                <span class="block">项目经历</span>
+                <span class="block text-sm text-blue-400/80 font-normal mt-1">Selected Projects</span>
+            </div>
         </h2>
 
-        <!-- 自上而下的单列布局，间距拉大 -->
         <div class="flex flex-col gap-16">
 
-            <!-- 项目卡片 1 -->
+            <!-- 项目卡片 1：苹果机器人 -->
             <article class="bg-slate-800/60 rounded-2xl p-6 sm:p-8 border border-slate-700/80 card-hover flex flex-col gap-6 backdrop-blur-sm">
-                
-                <!-- 项目文本介绍区 -->
-                <div class="flex flex-col gap-3">
-                    <h3 class="text-2xl font-bold">
-                        <a href="#link-to-project1" class="text-white hover:text-blue-400 transition-colors inline-flex items-center gap-2 group">
-                            开链四连杆构型步兵机器人
-                            <svg class="w-5 h-5 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                <div class="flex flex-col gap-4">
+                    <h3>
+                        <a href="#" class="group flex flex-col items-start gap-1">
+                            <span class="text-white hover:text-blue-400 transition-colors inline-flex items-center gap-2 text-2xl font-bold">
+                                苹果高效采摘多臂机器人研发
+                                <svg class="w-5 h-5 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                            </span>
+                            <span class="text-sm font-normal text-slate-400 transition-colors group-hover:text-blue-300">Apple Efficient Picking Multi-arm Robot R&D</span>
                         </a>
                     </h3>
-                    <p class="text-slate-400 text-base leading-relaxed">
-                        主导设计具有高自由度的轻量化步兵机器人底盘与云台架构。负责整体构型设计、核心关节模组的传动设计及有限元分析。通过拓扑优化使整体结构减重达25%，在实际对抗赛中展现出极高的机动性与可靠性。
-                    </p>
+                    <div class="text-slate-300 text-base leading-relaxed">
+                        <p>设计基于 PPRP 型构型的四自由度轻量化机械臂（碳纤维+铝合金，单臂约13.5kg），并研发内置深度相机的“眼在手中”式柔性三指夹爪。基于 Matlab 与 Recurdyn 完成运动学及电机选型校验，果园下地实测单果采摘落位低于13秒。</p>
+                        <p class="text-slate-500 text-sm mt-2 leading-relaxed">Designed a lightweight 4-DOF PPRP robotic arm (carbon fiber + aluminum, ~13.5kg) and an eye-in-hand flexible 3-finger gripper with a built-in depth camera. Validated kinematics and motor selection via Matlab and Recurdyn. Achieved picking time under 13s per apple in orchard field tests.</p>
+                    </div>
                     <div class="flex flex-wrap gap-2 mt-2">
-                        <span class="px-3 py-1 bg-blue-900/30 text-blue-300 border border-blue-800/50 text-xs font-medium rounded-full">SolidWorks</span>
-                        <span class="px-3 py-1 bg-blue-900/30 text-blue-300 border border-blue-800/50 text-xs font-medium rounded-full">ANSYS</span>
-                        <span class="px-3 py-1 bg-blue-900/30 text-blue-300 border border-blue-800/50 text-xs font-medium rounded-full">拓扑优化</span>
+                        <span class="px-3 py-1 bg-blue-900/30 text-blue-300 border border-blue-800/50 text-xs font-medium rounded-full">机械臂设计 / Robotic Arm</span>
+                        <span class="px-3 py-1 bg-blue-900/30 text-blue-300 border border-blue-800/50 text-xs font-medium rounded-full">柔性夹爪 / Flexible Gripper</span>
+                        <span class="px-3 py-1 bg-blue-900/30 text-blue-300 border border-blue-800/50 text-xs font-medium rounded-full">Recurdyn MBD</span>
                     </div>
                 </div>
 
-                <!-- 媒体展示区 (双槽位并排) -->
+                <!-- 苹果项目：1个主视频 + 4张细节图片的精美画廊布局 -->
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
-                    <!-- 媒体 1: B站实机视频 -->
+                    <!-- 主视频：横跨两列 -->
+                    <div class="media-container relative rounded-xl overflow-hidden border border-slate-700 md:col-span-2">
+                        <video controls class="w-full h-full object-cover">
+                            <source src="assets/apple-robot.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <!-- 细节图片：2x2 并排网格 -->
+                    <div class="media-container relative rounded-xl overflow-hidden border border-slate-700 bg-slate-900 group">
+                        <img src="assets/apple-robot2.jpg" alt="苹果机器人实机 / Apple Robot" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-300">
+                    </div>
+                    <div class="media-container relative rounded-xl overflow-hidden border border-slate-700 bg-slate-900 group">
+                        <img src="assets/apple-gripper1.png" alt="柔性夹爪设计1 / Gripper Design 1" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-300">
+                    </div>
+                    <div class="media-container relative rounded-xl overflow-hidden border border-slate-700 bg-slate-900 group">
+                        <img src="assets/apple-gripper2.png" alt="柔性夹爪设计2 / Gripper Design 2" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-300">
+                    </div>
+                    <div class="media-container relative rounded-xl overflow-hidden border border-slate-700 bg-slate-900 group">
+                        <img src="assets/apple-gripper3.png" alt="柔性夹爪设计3 / Gripper Design 3" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-300">
+                    </div>
+                </div>
+            </article>
+
+            <!-- 项目卡片 2：番茄夹爪 -->
+            <article class="bg-slate-800/60 rounded-2xl p-6 sm:p-8 border border-slate-700/80 card-hover flex flex-col gap-6 backdrop-blur-sm">
+                <div class="flex flex-col gap-4">
+                    <h3>
+                        <a href="#" class="group flex flex-col items-start gap-1">
+                            <span class="text-white hover:text-blue-400 transition-colors inline-flex items-center gap-2 text-2xl font-bold">
+                                剪夹一体式串果采摘末端执行器
+                                <svg class="w-5 h-5 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                            </span>
+                            <span class="text-sm font-normal text-slate-400 transition-colors group-hover:text-blue-300">Cut-and-Clamp Integrated Truss Fruit Picking End Effector</span>
+                        </a>
+                    </h3>
+                    <div class="text-slate-300 text-base leading-relaxed">
+                        <p>针对温室串番茄错综复杂的果梗，设计了一种末端小巧、同时完成剪切与夹持功能的末端执行器。集成齿轮齿条二指夹爪与直线进给刀片，获国家发明专利（CN120391197A），大棚现场测试单串采摘动作低于3秒。</p>
+                        <p class="text-slate-500 text-sm mt-2 leading-relaxed">Designed a compact end effector combining cutting and clamping functions for the complex stems of greenhouse truss tomatoes. Integrating a rack-and-pinion 2-finger gripper and linear feed blade. Granted national invention patent (CN120391197A), achieving picking actions in under 3s in greenhouse tests.</p>
+                    </div>
+                    <div class="flex flex-wrap gap-2 mt-2">
+                        <span class="px-3 py-1 bg-blue-900/30 text-blue-300 border border-blue-800/50 text-xs font-medium rounded-full">结构设计 / Structural Design</span>
+                        <span class="px-3 py-1 bg-blue-900/30 text-blue-300 border border-blue-800/50 text-xs font-medium rounded-full">发明专利 / Invention Patent</span>
+                        <span class="px-3 py-1 bg-blue-900/30 text-blue-300 border border-blue-800/50 text-xs font-medium rounded-full">末端执行器 / End Effector</span>
+                    </div>
+                </div>
+
+                <!-- 番茄夹爪项目：2个展示视频并排布局 -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
+                    <div class="media-container relative rounded-xl overflow-hidden border border-slate-700">
+                        <video controls class="w-full h-full object-cover">
+                            <source src="assets/tomato-gripper1.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="media-container relative rounded-xl overflow-hidden border border-slate-700">
+                        <video controls class="w-full h-full object-cover">
+                            <source src="assets/tomato-gripper2.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </article>
+
+            <!-- 项目卡片 3：RM 机器人 -->
+            <article class="bg-slate-800/60 rounded-2xl p-6 sm:p-8 border border-slate-700/80 card-hover flex flex-col gap-6 backdrop-blur-sm">
+                <div class="flex flex-col gap-4">
+                    <h3>
+                        <a href="#" class="group flex flex-col items-start gap-1">
+                            <span class="text-white hover:text-blue-400 transition-colors inline-flex items-center gap-2 text-2xl font-bold">
+                                RoboMaster 轮足式步兵机器人
+                                <svg class="w-5 h-5 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                            </span>
+                            <span class="text-sm font-normal text-slate-400 transition-colors group-hover:text-blue-300">RoboMaster Wheeled-Legged Infantry Robot</span>
+                        </a>
+                    </h3>
+                    <div class="text-slate-300 text-base leading-relaxed">
+                        <p>担任战队队长及机械组负责人。提出并设计基于切比雪夫连杆的轮足底盘机构，实现20°爬坡与25cm台阶跳跃，越野能力全面。建立 WBS 团队管理流程，率队获东部赛区冠军，个人荣获 RM 最高个人荣誉奖及技术考核“S”级评价。</p>
+                        <p class="text-slate-500 text-sm mt-2 leading-relaxed">Served as Team Captain and Mechanical Lead. Proposed and designed a wheeled-legged chassis based on the Chebyshev linkage, achieving 20° slope climbing and 25cm step jumps. Established WBS management processes, leading the team to the Eastern Regional Championship. Awarded the RM Highest Personal Honor and "S" rating in technical assessment.</p>
+                    </div>
+                    <div class="flex flex-wrap gap-2 mt-2">
+                        <span class="px-3 py-1 bg-blue-900/30 text-blue-300 border border-blue-800/50 text-xs font-medium rounded-full">连杆机构 / Linkage Mechanism</span>
+                        <span class="px-3 py-1 bg-blue-900/30 text-blue-300 border border-blue-800/50 text-xs font-medium rounded-full">底盘调试 / Chassis Debugging</span>
+                        <span class="px-3 py-1 bg-blue-900/30 text-blue-300 border border-blue-800/50 text-xs font-medium rounded-full">项目管理 / Project Management</span>
+                    </div>
+                </div>
+
+                <!-- RM 使用 Bilibili 嵌入 (保持之前已设定的) -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
                     <div class="media-container relative rounded-xl overflow-hidden border border-slate-700">
                         <iframe src="https://player.bilibili.com/player.html?isOutside=true&aid=114602998235329&bvid=BV1Rh7KzTEe9&cid=30252662879&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" class="w-full h-full"></iframe>
                     </div>
-                    <!-- 媒体 2: 结构图/渲染图/副视角视频 -->
-                    <div class="media-container relative rounded-xl overflow-hidden border border-slate-700 bg-slate-900 group">
-                        <!-- 这里放了一张占位图片，你可以替换为你设计的 CAD 渲染图或者零件图 -->
-                        <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=800" alt="CAD设计渲染图" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-300">
-                    </div>
-                </div>
-            </article>
-
-            <!-- 项目卡片 2 -->
-            <article class="bg-slate-800/60 rounded-2xl p-6 sm:p-8 border border-slate-700/80 card-hover flex flex-col gap-6 backdrop-blur-sm">
-                <div class="flex flex-col gap-3">
-                    <h3 class="text-2xl font-bold">
-                        <a href="#link-to-project2" class="text-white hover:text-blue-400 transition-colors inline-flex items-center gap-2 group">
-                            全地形履带式特种平台底盘
-                            <svg class="w-5 h-5 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
-                        </a>
-                    </h3>
-                    <p class="text-slate-400 text-base leading-relaxed">
-                        针对野外复杂地形开发的特种移动平台。完成了独立悬挂系统与履带张紧机构的创新设计，使用 ADAMS 进行刚柔耦合动力学仿真，大幅提升了底盘的越障能力和行驶平顺性，可搭载50kg负载攀爬35度斜坡。
-                    </p>
-                    <div class="flex flex-wrap gap-2 mt-2">
-                        <span class="px-3 py-1 bg-blue-900/30 text-blue-300 border border-blue-800/50 text-xs font-medium rounded-full">Creo</span>
-                        <span class="px-3 py-1 bg-blue-900/30 text-blue-300 border border-blue-800/50 text-xs font-medium rounded-full">ADAMS仿真</span>
-                        <span class="px-3 py-1 bg-blue-900/30 text-blue-300 border border-blue-800/50 text-xs font-medium rounded-full">底盘动力学</span>
-                    </div>
-                </div>
-
-                <!-- 媒体展示区 -->
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
-                    <!-- 媒体 1: 仿真视频或测试视频 -->
-                    <div class="media-container relative rounded-xl overflow-hidden border border-slate-700">
-                        <video controls poster="https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover">
-                            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                    <!-- 媒体 2: 实物照片或图纸 -->
-                    <div class="media-container relative rounded-xl overflow-hidden border border-slate-700 bg-slate-900 group">
-                        <img src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&q=80&w=800" alt="底盘实物图" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-300">
-                    </div>
-                </div>
-            </article>
-
-            <!-- 项目卡片 3 -->
-            <article class="bg-slate-800/60 rounded-2xl p-6 sm:p-8 border border-slate-700/80 card-hover flex flex-col gap-6 backdrop-blur-sm">
-                <div class="flex flex-col gap-3">
-                    <h3 class="text-2xl font-bold">
-                        <a href="#link-to-project3" class="text-white hover:text-blue-400 transition-colors inline-flex items-center gap-2 group">
-                            自动化产线自适应快换夹具
-                            <svg class="w-5 h-5 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
-                        </a>
-                    </h3>
-                    <p class="text-slate-400 text-base leading-relaxed">
-                        为新能源汽车电池包组装线定制的非标自动化设备。设计了纯气动控制的自适应夹持机构，兼容3种不同型号的电芯模块。优化了气路控制逻辑与导向机构，项目成功落地并使单工位换产时间缩短了60%。
-                    </p>
-                    <div class="flex flex-wrap gap-2 mt-2">
-                        <span class="px-3 py-1 bg-blue-900/30 text-blue-300 border border-blue-800/50 text-xs font-medium rounded-full">非标自动化</span>
-                        <span class="px-3 py-1 bg-blue-900/30 text-blue-300 border border-blue-800/50 text-xs font-medium rounded-full">气动传动</span>
-                        <span class="px-3 py-1 bg-blue-900/30 text-blue-300 border border-blue-800/50 text-xs font-medium rounded-full">机电一体化</span>
-                    </div>
-                </div>
-
-                <!-- 媒体展示区 -->
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
-                    <div class="media-container relative rounded-xl overflow-hidden border border-slate-700">
-                        <video controls poster="https://images.unsplash.com/photo-1614728263952-84ea256f9679?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover">
-                            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                    <div class="media-container relative rounded-xl overflow-hidden border border-slate-700 bg-slate-900 group">
-                        <img src="https://images.unsplash.com/photo-1565439390118-b223011b4731?auto=format&fit=crop&q=80&w=800" alt="夹具实物图" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-300">
+                    <div class="media-container relative rounded-xl overflow-hidden border border-slate-700 bg-slate-900">
+                        <iframe src="https://player.bilibili.com/player.html?isOutside=true&aid=114173686062504&bvid=BV19aQYYDEPi&cid=28903605718&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" class="w-full h-full"></iframe>
                     </div>
                 </div>
             </article>
@@ -182,9 +215,9 @@
 
     <!-- 页脚 -->
     <footer class="border-t border-slate-800 mt-10 py-10">
-        <div class="max-w-5xl mx-auto px-4 text-center flex flex-col items-center gap-2">
+        <div class="max-w-5xl mx-auto px-4 text-center flex flex-col items-center gap-3">
             <p class="text-slate-500 text-sm">
-                &copy; 2026 李柯轩. 保留所有权利. 
+                &copy; 2026 李柯轩. 保留所有权利. <span class="text-slate-600 ml-1">/ All Rights Reserved.</span>
             </p>
             <p class="text-slate-600 text-xs">
                 Driven by Structural Engineering & Robotics
@@ -196,9 +229,7 @@
     <div id="toast-container" class="fixed top-5 left-1/2 transform -translate-x-1/2 z-50 flex flex-col gap-2 pointer-events-none"></div>
 
     <script>
-        // 复制文本到剪贴板并显示提示
         function copyText(text) {
-            // 使用 iframe 兼容的 execCommand 方式
             const textArea = document.createElement("textarea");
             textArea.value = text;
             textArea.style.top = "0";
@@ -208,43 +239,35 @@
             document.body.appendChild(textArea);
             textArea.focus();
             textArea.select();
-
             try {
                 const successful = document.execCommand('copy');
                 if (successful) {
-                    showToast('✅ 复制成功: ' + text);
+                    showToast('✅ 复制成功 Copied: ' + text);
                 } else {
-                    showToast('❌ 复制失败，请手动复制');
+                    showToast('❌ 复制失败，请手动复制 / Failed to copy');
                 }
             } catch (err) {
-                showToast('❌ 复制失败，您的浏览器不支持');
+                showToast('❌ 浏览器不支持 / Browser not supported');
             }
-            
             document.body.removeChild(textArea);
         }
 
-        // 显示美观的提示框 (Toast)
         function showToast(message) {
             const container = document.getElementById('toast-container');
             const toast = document.createElement('div');
-            toast.className = 'bg-slate-800 text-slate-200 border border-slate-700 px-6 py-3 rounded-xl shadow-2xl transform transition-all duration-300 translate-y-[-20px] opacity-0 flex items-center justify-center';
+            toast.className = 'bg-slate-800 text-slate-200 border border-slate-700 px-6 py-3 rounded-xl shadow-2xl transform transition-all duration-300 translate-y-[-20px] opacity-0 flex items-center justify-center whitespace-nowrap';
             toast.innerText = message;
-            
             container.appendChild(toast);
-            
-            // 触发动画
             requestAnimationFrame(() => {
                 toast.classList.remove('translate-y-[-20px]', 'opacity-0');
                 toast.classList.add('translate-y-0', 'opacity-100');
             });
-
-            // 2.5秒后消失
             setTimeout(() => {
                 toast.classList.remove('translate-y-0', 'opacity-100');
                 toast.classList.add('translate-y-[-20px]', 'opacity-0');
                 setTimeout(() => {
                     toast.remove();
-                }, 300); // 等待淡出动画完成
+                }, 300);
             }, 2500);
         }
     </script>
