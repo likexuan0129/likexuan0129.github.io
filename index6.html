@@ -151,7 +151,7 @@
                         </a>
                     </h3>
                     <div class="text-slate-300 text-base leading-relaxed">
-                        <p>针对温室串番茄错综复杂的果梗，设计了一种末端小巧、同时完成剪切与夹持功能的末端执行器。集成齿轮齿条二指夹爪与直线进给刀片，获国家发明专利（CN120391197A），大棚现场测试单串采摘动作低于3秒。</p>
+                        <p>针对温室串番茄错综复杂的果梗，设计了一种末端小巧、同时完成剪切与夹持功能的末端执行器。集成齿轮齿条二指夹爪与直线进给刀片，申请发明专利（公开号CN120391197A），大棚现场测试单串采摘动作低于3秒。</p>
                         <p class="text-slate-500 text-sm mt-2 leading-relaxed">Designed a compact end effector combining cutting and clamping functions for the complex stems of greenhouse truss tomatoes. Integrating a rack-and-pinion 2-finger gripper and linear feed blade. Granted national invention patent (CN120391197A), achieving picking actions in under 3s in greenhouse tests.</p>
                     </div>
                     <div class="flex flex-wrap gap-2 mt-2">
@@ -161,14 +161,16 @@
                     </div>
                 </div>
 
-                <!-- 番茄夹爪项目：2个展示视频并排布局 -->
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
-                    <div class="media-container relative rounded-xl overflow-hidden border border-slate-700">
+                <!-- 番茄夹爪项目：1个常规横屏(16:9) + 1个纵向竖屏(9:16) -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6 items-start">
+                    <!-- 第一个横屏视频占 2 列宽度 -->
+                    <div class="media-container relative rounded-xl overflow-hidden border border-slate-700 md:col-span-2">
                         <video controls class="w-full h-full object-cover">
                             <source src="assets/tomato-gripper1.mp4" type="video/mp4">
                         </video>
                     </div>
-                    <div class="media-container relative rounded-xl overflow-hidden border border-slate-700">
+                    <!-- 第二个竖屏长幅视频占 1 列宽度，比例设定为 9:16 -->
+                    <div class="relative rounded-xl overflow-hidden border border-slate-700 md:col-span-1" style="aspect-ratio: 9 / 16; background-color: #020617;">
                         <video controls class="w-full h-full object-cover">
                             <source src="assets/tomato-gripper2.mp4" type="video/mp4">
                         </video>
@@ -189,7 +191,8 @@
                         </a>
                     </h3>
                     <div class="text-slate-300 text-base leading-relaxed">
-                        <p>担任战队队长及机械组负责人。提出并设计基于切比雪夫连杆的轮足底盘机构，实现20°爬坡与25cm台阶跳跃，越野能力全面。建立 WBS 团队管理流程，率队获东部赛区冠军，个人荣获 RM 最高个人荣誉奖及技术考核“S”级评价。</p>
+                        <p>担任战队队长及机械组负责人。提出并设计基于切比雪夫连杆的轮足底盘机构，实现 20°爬坡/飞坡、跳跃上 25cm 台阶、站立通过有弹丸与波浪形起伏的路段、下蹲通过宽 550mm 高
+450mm 通道功能，相比于同类机器人实现了更全面的功能。建立 WBS 团队管理流程，率队获东部赛区冠军，个人荣获 RM 最高个人荣誉奖及技术考核“S”级评价。</p>
                         <p class="text-slate-500 text-sm mt-2 leading-relaxed">Served as Team Captain and Mechanical Lead. Proposed and designed a wheeled-legged chassis based on the Chebyshev linkage, achieving 20° slope climbing and 25cm step jumps. Established WBS management processes, leading the team to the Eastern Regional Championship. Awarded the RM Highest Personal Honor and "S" rating in technical assessment.</p>
                     </div>
                     <div class="flex flex-wrap gap-2 mt-2">
